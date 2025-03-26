@@ -5,6 +5,21 @@
   --foreground: #171717;
 }
 
+@font-face {
+  font-family: 'Ghibli Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Ghibli Regular'), url('../ui/Eyad\ Al-Samman\ -\ Ghibli.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Ghibli Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Ghibli Bold'), url('../ui/Eyad\ Al-Samman\ -\ Ghibli-Bold.woff') format('woff');
+  }
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

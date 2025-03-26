@@ -5,3 +5,8 @@ export const kavoon = Kavoon({
   subsets: ["latin"],
   weight: "400",
 });
+
+export const ghibli = {
+  variable: "--font-ghibli",
+  fontFamily: "Ghibli Regular",
+};
